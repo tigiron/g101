@@ -1,0 +1,34 @@
+frequently used git commands:
+
+git help giteveryday
+
+git clone method:
+git clone https://github.com/tigiron/g101.git g101
+
+
+
+¡­or create a new repository on the command line
+
+echo "# h_w" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tigiron/h_w.git
+git push -u origin master
+
+¡­or push an existing repository from the command line
+
+git remote add origin https://github.com/tigiron/h_w.git
+git push -u origin master
+
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b feature origin/feature
+git merge master
+
+Step 2: Merge the changes and update on GitHub.
+git checkout master
+git merge --no-ff feature
+git push origin master
