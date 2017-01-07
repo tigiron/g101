@@ -4,7 +4,9 @@ git help giteveryday
 
 git clone method:
 git clone https://github.com/tigiron/g101.git g101
-
+git remote add origin https://github.com/tigiron/g101.git
+git remote -v # verify , how to remove remote
+git show-branch
 
 
 ¡­or create a new repository on the command line
@@ -32,3 +34,6 @@ Step 2: Merge the changes and update on GitHub.
 git checkout master
 git merge --no-ff feature
 git push origin master
+
+
+https://github.com/kien
