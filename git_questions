@@ -1,3 +1,9 @@
 what is an origin?
 advanced topics
+this was edited from gitbash,
+1.  git clone https://github.com/tigiron/g101.git g101
+2.  editing
+3.  git add git_questions
+4.  git commit 
+5.  git push
 
